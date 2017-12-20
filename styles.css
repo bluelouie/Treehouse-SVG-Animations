@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: #edeff0;
+  background-image: url('./svgs/background.svg');
+}
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+  height: 100%; /* new line */
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #111;
+}
+
+header {
+  padding-top: 10px;
+}
+
+header nav {
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  color: #39ADD1;
+  font-weight: bold;
+  transition: color .3s ease-out;
+}
+
+header nav ul li:hover {
+  color: #81CAE1;
+}
+
+main {
+  padding-top: 50px;
+}
+
+main h2 {
+  font-size: 28px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+
+/* //--------------------------------SVG */
+
+header nav ul svg {
+  width: 15px;
+}
+
+.nav-icon {
+  transition: fill .3s ease-out;
+}
+
+.nav-icon:hover {
+  fill: #81CAE1;
+}
+
+.logo {
+  max-width: 140px;
+}
+
+.logo-text {
+  display: none;
+}
+
+.logo-mb {
+  font-size: 22px;
+  color: #eaaa7f;
+  margin: 0 auto;
+}
+
+.shades {
+  width: 20%;
+}
+
+.dog-sable {
+  color: #b97f5b;
+}
+
+.dog-fawn {
+  color: #e9aa82;
+}
+
+.dog-red {
+  color: #834b29;
+}
+
+.dog-stone {
+  color: #52595e;
+}
+
+/*------------------------------------------------------------*/
+
+@media (min-width: 425px) {
+  .logo-text {
+    display: block;
+  }
+
+  .logo-mb {
+    display: none;
+  }
+}
